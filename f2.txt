@@ -1,0 +1,2 @@
+This is the start of text
+This string is going to be addedthis line is entered from the terminal

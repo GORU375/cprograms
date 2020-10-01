@@ -1,0 +1,22 @@
+//C Program to find average of numbers using arrays!!
+			 
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int marks[8],i,sum=0;
+	float avg;
+	clrscr();
+
+	printf("Enter marks of 5 students\n");
+	for(i=0;i<5;i++)
+	{
+	  scanf("%d",&marks[i]);
+	  sum=sum+marks[i];
+	}
+	avg=sum/5;
+	printf("Sum is:%d",sum);
+	printf("\nAVERAGE IS: %.2f",avg);
+	getch();
+}
+
